@@ -1,0 +1,9 @@
+try:
+	number = int(input("Enter an integer: ").strip())
+
+	if number % 2 == 0:
+		print("Even")
+	else:
+		print("Odd")
+except ValueError:
+	print("Invalid input. Please enter a valid integer.")
